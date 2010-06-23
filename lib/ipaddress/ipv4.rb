@@ -815,7 +815,7 @@ module IPAddress;
     
     def prefix_from_ip(ip)
       bits = bits_from_address(ip)
-      CLASSFUL.each {|reg,prefix| return prefix if bits =~ reg}
+      CLASSFUL.each {|reg,prefix| return Prefix32.new(prefix) if bits =~ reg}
     end
 
     def calculate_subnets(subnets)
