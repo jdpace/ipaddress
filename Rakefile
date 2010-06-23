@@ -5,8 +5,8 @@ require 'rake/clean'
 begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
-    gem.name = "ipaddress"
-    gem.summary = %Q{IPv4/IPv6 addresses manipulation library}
+    gem.name = "relevance_ipaddress"
+    gem.summary = %Q{Fix Branch of IPAddress gem. IPv4/IPv6 addresses manipulation library}
     gem.email = "ceresa@gmail.com"
     gem.homepage = "http://github.com/bluemonk/ipaddress"
     gem.authors = ["Marco Ceresa"]
